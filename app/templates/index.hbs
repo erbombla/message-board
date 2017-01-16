@@ -4,8 +4,9 @@
 
 
 <h3> Active Topics in {{#link-to 'fourm'}} Forum {{/link-to}} </h3>
-  <ul>
+  <dl>
     {{#each model as |question|}}
-       <li>{{question.username}}: {{question.question}}</li>
+      <dt>{{question.question}}</dt>
+      <dd>by {{question.username}}</dd>
     {{/each}}
-  </ul>
+  </dl>
