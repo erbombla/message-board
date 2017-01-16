@@ -1,0 +1,20 @@
+{ "submissions": [{
+    "username": "ForPizzaSake",
+    "city": "Austin",
+    "question": "Best pizza place?",
+    "body": "I'm looking for the best place to eat pizza."
+  }, {
+    "username": "ChristopherStalkin",
+    "city": "Portland",
+    "question": "Best IPA beers?",
+    "body": "What are some breweries with killer IPAs?"
+  }],
+
+  "answers": [{
+    "username": "NachoTaco",
+    "answer": "Via 313 if you like deep dish. Backspace for Neapolitan style."
+  }, {
+    "username": "Thund3rDome",
+    "answer": "Great Notion, Breakside, Fat Heads and Deschutes."
+  }]
+}
