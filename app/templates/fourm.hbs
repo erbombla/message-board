@@ -1,0 +1,8 @@
+<h2> Forum </h2>
+<hr>
+
+<ul>
+  {{#each model as |question|}}
+     <li>{{question.username}}: {{question.question}} ({{question.city}})</li>
+  {{/each}}
+</ul>
