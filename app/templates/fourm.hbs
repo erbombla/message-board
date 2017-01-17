@@ -4,8 +4,7 @@
 <h3> Active Topics </h3>
   <dl>
     {{#each model as |question|}}
-       <dt>{{question.question}} ({{question.city}})</dt>
-       <dd>by {{question.username}}</dd>
+       {{question-tile question=question}}
     {{/each}}
   </dl>
 
