@@ -9,3 +9,10 @@
       {{question-tile question=question}}
     {{/each}}
   </dl>
+
+  <dl>
+    {{#each model as |answer|}}
+      {{answer.username}}
+      {{answer.content}}
+    {{/each}}
+  </dl>
